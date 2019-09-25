@@ -54,7 +54,7 @@ module.exports = {
       // custom CSS to embed in the main window
       css: `
       .terms_terms{
-        background-image:url("file:///Users/hash1da1/Desktop/workspace/hyper-sukoya/image/sukoya.png");
+        background-image:url("file:<<path to background picture>>");
         background-size: 40%;
         background-position: right bottom;
         background-repeat: no-repeat;
