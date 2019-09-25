@@ -27,7 +27,7 @@ module.exports = {
       letterSpacing: 0,
   
       // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-      cursorColor: '#ff47e7',
+      cursorColor: 'rgba(248,28,229,0.8)',
   
       // terminal text color under BLOCK cursor
       cursorAccentColor: '#000',
@@ -39,23 +39,27 @@ module.exports = {
       cursorBlink: false,
   
       // color of the text
-      foregroundColor: '#fa43e2',
+      foregroundColor: '#000',
   
       // terminal background color
       // opacity is only supported on macOS
-      backgroundColor: '#ffe8fc',
+      backgroundColor: 'rgba(255, 219, 250, 0.8)',
   
       // terminal selection color
       selectionColor: 'rgba(248,28,229,0.3)',
   
       // border color (window, tabs)
-      borderColor: '#333',
+      borderColor: '#fff',
   
       // custom CSS to embed in the main window
-      css: '
+      css: `
       .terms_terms{
-        background:url(<span class="bg">file</span>:sukoya.png) no-<span class="keyword">repeat</span> bottom right;background-size:<span class="number">222</span>px auto;
-    }',
+        background-image:url("file:///Users/hash1da1/Desktop/workspace/hyper-sukoya/image/sukoya.png");
+        background-size: 40%;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+      };
+      `,
   
       // custom CSS to embed in the terminal window
       termCSS: '',
