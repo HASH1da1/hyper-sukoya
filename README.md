@@ -4,8 +4,8 @@
 
 
 ## 健屋花那とは
+<img src="https://nijisanji.ichikara.co.jp/wp-content/uploads/elementor/thumbs/Kana_Sukoya_homepage-odxvj53p4nf97g80td8hgaxocsvx9ibcuylnj5rh4g.png" width="60%">
 
-![sukoya-kana](https://nijisanji.ichikara.co.jp/wp-content/uploads/elementor/thumbs/Kana_Sukoya_homepage-odxvj53p4nf97g80td8hgaxocsvx9ibcuylnj5rh4g.png)
 
 [公式ページ](https://nijisanji.ichikara.co.jp/member/kana-sukoya/)
 
@@ -30,3 +30,6 @@
 ## misc
 
 あくまで自分用です。そのうちplugin化してnpmで配布するやつやりたい。
+
+
+**リンク先のコンテンツの権利については著作者権利者に帰属します。**
