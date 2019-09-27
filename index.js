@@ -52,6 +52,7 @@ const defaultOptions = {
         ${config.css || ''}
         .hyper_main {
           border: none;
+          background-image: url("images/background.png")
         }
         .header_header {
           top: 0;
