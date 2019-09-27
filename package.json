@@ -1,0 +1,26 @@
+{
+    "name": "hyper-sukoya",
+    "version": "0.1",
+    "description": "Sukoya Kana theme for Hyper",
+    "main": "index.js",
+    "license": "MIT",
+    "homepage": "https://github.com/HASH1da1/hyper-sukoya",
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/HASH1da1/hyper-sukoya.git"
+    },
+    "keywords": [
+      "hyper",
+      "hyper-theme",
+      "hyperterm",
+      "hyperterm-theme",
+      "hyper.app",
+      "nijisanji",
+      "Virtual-YouTuber",
+      "sukoya-kana",
+      "sukoya",
+      "VTuber"
+    ],
+    "author": "HASH1da1"
+  }
+  
