@@ -31,19 +31,11 @@ const schemeSukoya = {
 
 
 
-// option
-const defaultOptions = {
-    illust: true,
-    opacity: 0.6,
-    overText: false,
-  }
-
-
   exports.decorateConfig = (config) => {
     const scheme =Object.assign({}, defaultOptions,schemeSukoya)
   
     return Object.assign({}, config, {
-        backgroundColor: 'transparent',
+        backgroundColor: scheme.bgColor,
         foregroundColor: scheme.fgColor,
         cursorColor: scheme.cursorColor,
         selectionColor: scheme.selectionColor,
@@ -52,34 +44,19 @@ const defaultOptions = {
         ${config.css || ''}
         .hyper_main {
           border: none;
-          background-image: url("images/background.png")
         }
         .header_header {
           top: 0;
           left: 0;
           right: 0;
-          background-color: ${scheme.subBgColor};
         }
         .tabs_nav {
-          background-color: ${scheme.subBgColor};
-        }
-        .tabs_title {
-          font-family: ${'Coca Cola ii, ' + config.fontFamily}
         }
         .tab_tab {
           border: none;
         }
-        .tab_tab.tab_active {
-          background-color: ${scheme.bgColor};
-        }
         .tabs_borderShim {
           display: none;
-        }
-        .footer_footer {
-          background-color: ${scheme.subBgColor};
-        }
-        .footer_footer .footer_group {
-          color: ${scheme.subFgColor};
         }
       `
     })
